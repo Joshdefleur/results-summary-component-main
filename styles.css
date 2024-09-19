@@ -56,4 +56,26 @@ p{
 
 /* summary section */
 
+.sum{
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.reaction{
+    background-color: rgba(255, 87, 87, 0.1);
+}
+
+.memory{
+    background-color: rgba(255, 176, 31, 0.1);
+}
+
+.verbal{
+    background-color: rgba(0, 189, 145, 0.1);
+}
+
+.visual{
+    background-color: rgba(17, 37, 212, 0.1);
+}
+
+
 
