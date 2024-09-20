@@ -9,8 +9,13 @@ body{
     font-size: 18px;
 }
 
-p{
+.highlightsection p{
     opacity: 0.7;
+}
+
+.page{
+    margin: auto;
+    max-width: 650px;
 }
 
 
@@ -57,24 +62,62 @@ p{
 /* summary section */
 
 .sum{
-    margin-bottom: 1em;
+    margin: 1em;
     padding: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header{
+    margin-left: 0.1em;
+    font-weight: bold;
+}
+
+.titles{
+    margin-right: auto;
+    margin-left: 0.5em;
+    font-weight: bold;
 }
 
 .reaction{
     background-color: rgba(255, 87, 87, 0.1);
 }
 
+.red{
+    color: hsl(0, 100%, 67%);
+}
+
 .memory{
     background-color: rgba(255, 176, 31, 0.1);
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
 }
 
 .verbal{
     background-color: rgba(0, 189, 145, 0.1);
 }
 
+.green{
+    color: hsl(166, 100%, 37%);
+}
+
 .visual{
     background-color: rgba(17, 37, 212, 0.1);
+}
+
+.purple{
+    color: hsl(234, 85%, 45%);
+}
+
+.button{
+    background-color: hsl(224, 30%, 27%);
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    margin: 1.5em 1em;
 }
 
 
