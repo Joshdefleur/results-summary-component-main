@@ -133,16 +133,63 @@ body{
 
     .page{
         display: flex;
+        max-width: 1000px;
     }
 
     .highlightsection{
         margin-bottom: 0;
         border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 1em 3em 2em 3em;
+        gap: 1.7em;
+        align-items: center;
+        max-width: 370px;
+        box-shadow: 20px 14px 20px hsl(221, 100%, 96%) ;
 
+    }
+
+    .highlightsection p{
+        font-weight: bold;
+    }
+
+    .title{
+        font-size: 24px;
+        margin-bottom: 0.4em;
+    }
+
+    .numbers{
+        max-height: 200px;
+        width: 200px;
+        padding: 2em;
+        margin: 0;
+        max-width: 200px;
+    }
+
+    .numbers h1{
+        font-size: 4em;
     }
 
     .summary{
         border-radius: 0 30px 30px 0;
+        flex: 1;
+        padding-left: 1em;
+        width: 370px;
+        box-shadow: 20px 14px 20px hsl(221, 100%, 96%);
+    
+    }
+
+
+    .reaction{
+        margin-top: 0px;
+    }
+
+    .header{
+        margin-top: 0;
+        font-size: 24px;
+        padding-top: 18px;
+        margin-bottom: 0px;
     }
 }
 
